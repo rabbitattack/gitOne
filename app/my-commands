@@ -1,0 +1,15 @@
+ 2883  git-drill-1
+ 2884  git init
+ 2885  touch readme.md index.html style.css
+ 2886  git remote add origin https://github.com/rabbitattack/gitOne.git
+ 2887  git  add index.html
+ 2888  git status
+ 2889  git commit -m"initial index"
+ 2890  git add -A
+ 2891  git rm --cached index.html readme.md style.css
+ 2892  touch app.js
+ 2893  pwd
+ 2894  git add -A
+ 2895  git commit -m"faceoff"
+ 2896  git log
+ 2897  git push -u origin master
